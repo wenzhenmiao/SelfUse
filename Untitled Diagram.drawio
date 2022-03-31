@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T07:32:27.753Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="_JFn1EcHITWLvqA4FDxa" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T08:50:04.942Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="5wSObF-E1owcynGARUss" version="17.1.5" type="github">
   <diagram id="darZamEJXbMRb2Eap3pl" name="Page-1">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x6dT7qXxnTMAF7nUAH5G-9" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;AlsRecallAll&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ Base&lt;br&gt;+ isDeviceAll&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ GetOnlineRelatives(in uid,living)&lt;br&gt;+ insertRelatives(in FeedData,uid,living)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-          <mxGeometry x="290" y="80" width="230" height="100" as="geometry" />
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-9" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;AlsRecallAll&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ isDeviceAll&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ GetOnlineRelatives(in uid,living)&lt;br&gt;+ insertRelatives(in FeedData,uid,living)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="53" y="270" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="x6dT7qXxnTMAF7nUAH5G-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetData(uid int64): []*feed.FeedData&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetName(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="230" height="80" as="geometry" />
+          <mxGeometry x="53" y="450" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="x6dT7qXxnTMAF7nUAH5G-32" value="FeedData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="70" width="256" height="180" as="geometry" />
+          <mxGeometry x="390" y="200" width="256" height="180" as="geometry" />
         </mxCell>
         <mxCell id="x6dT7qXxnTMAF7nUAH5G-33" value="+ Relateid: int64&#xa;+ Score: float64&#xa;+ Model: String, etc." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x6dT7qXxnTMAF7nUAH5G-32">
           <mxGeometry y="26" width="256" height="54" as="geometry" />
@@ -21,6 +21,42 @@
         </mxCell>
         <mxCell id="x6dT7qXxnTMAF7nUAH5G-35" value="+ method(type): type&#xa;+ MergeHotLive(uid,[]*FD,string): []*FD 补热门&#xa;+ DisperseFD(list): []*FD 打散&#xa;+ FilterArrStr([]string, []*FD) []*FD 过滤dislike&#xa;etc." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x6dT7qXxnTMAF7nUAH5G-32">
           <mxGeometry y="88" width="256" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-108" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x6dT7qXxnTMAF7nUAH5G-9" target="x6dT7qXxnTMAF7nUAH5G-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-237" y="470" as="sourcePoint" />
+            <mxPoint x="-77" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-109" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;wrapResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;+ uid int64&lt;br&gt;+ model string&lt;br&gt;+ list []*FD, etc.&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="300" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-111" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Rule&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ Uid&lt;br&gt;+ Model&lt;br&gt;+ RuleName&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+ FilterFeeds&lt;br&gt;+ Result&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-112" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x6dT7qXxnTMAF7nUAH5G-111" target="x6dT7qXxnTMAF7nUAH5G-109">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-128" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Base&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;+ Uid int64&lt;br&gt;+ FromDB int&lt;br&gt;+ Model string&lt;br&gt;+ Deviceid string&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="100" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-129" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x6dT7qXxnTMAF7nUAH5G-128" target="x6dT7qXxnTMAF7nUAH5G-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-130" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="x6dT7qXxnTMAF7nUAH5G-129">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-131" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="x6dT7qXxnTMAF7nUAH5G-129">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6dT7qXxnTMAF7nUAH5G-132" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;func&lt;/i&gt;&lt;b&gt; HotAction&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;// 直播热门推荐&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
