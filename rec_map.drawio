@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T10:13:05.505Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="HTshOIdbJz1c_aEq9in9" version="17.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T10:16:40.430Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="DD9l07E3EdGkmtmLY4FT" version="17.3.0" type="github">
   <diagram id="3AL0ttqAcDRqS0Fl6dhK" name="Page-1">
-    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,9 @@
             <mxPoint x="1350" y="380" as="sourcePoint" />
             <mxPoint x="1400" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3B3CyOlS2YxdY7rioncx-42" value="广告漏斗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="323.13" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
